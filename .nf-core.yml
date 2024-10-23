@@ -6,11 +6,11 @@ repository_type: pipeline
 template:
   author: Alex Epstein
   description: Makes gene count matrix from single-cell combinatorial indexing data
-  force: true
+  force: false
   is_nfcore: true
   name: sciflow
   org: nf-core
-  outdir: /lustre/fs4/cao_lab/store/aepstein/repositories/sciflow
+  outdir: .
   skip_features: []
   version: 1.0.0dev
 update: null
